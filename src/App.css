@@ -1,0 +1,102 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  background-color: #0e0d13;
+  color: white;
+}
+
+.password-generator-main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25rem;
+  height: 30rem;
+  row-gap: 1rem;
+
+}
+
+.password-generator-main__input{
+  width: 20rem;
+  height: 2rem;
+}
+
+.password-generator-main__input-input{
+  width: 19rem;
+  height: 1rem;
+  font-size: 1.8rem;
+  background-color: #24232b;
+  color: white;
+  border: none;
+}
+
+.password-generator-main__input-button{
+  background-color: #24232b;
+  color: white;
+  border: none;
+}
+
+.password-generator-main__input-input{
+  padding: 20px;
+}
+
+.password-generator-main__input-container{
+  display: flex;
+  background-color: #24232b;
+}
+
+.selectors{
+  width: 24.85rem;
+  background-color: #24232b;
+}
+
+.container{
+  padding: 1rem;
+}
+
+.selectors-length-value{
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 20px;
+}
+
+.green-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.checkboxes{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #24232b;
+  width: 100%;
+}
+
+h3{
+  color: white;
+}
+
+.generate-password-button{
+  width: 100%;
+  height: 2rem;
+  background-color: #04AA6D;
+  font-weight: bolder;
+}
